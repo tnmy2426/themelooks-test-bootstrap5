@@ -1,0 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+/*# sourceMappingURL=style.css.map */

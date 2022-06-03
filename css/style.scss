@@ -1,0 +1,19 @@
+// Reset all Margin/padding/list styles/'<a> tags text decoration
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   overflow-x: hidden;
+}
+
+// CSS Variables for color & font size
+
+html,
+body {
+   scroll-behavior: smooth;
+   font-family: "Montserrat", sans-serif;
+   text-rendering: optimizeLegibility;
+}
