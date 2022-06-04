@@ -4,6 +4,17 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
+         rel="stylesheet"
+      />
+
+      <!-- Font Awesome ICONS -->
+      <script src="https://kit.fontawesome.com/a2c234ef4d.js" crossorigin="anonymous"></script>
+
       <!-- Bootstrap CSS -->
       <link
          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -16,7 +27,189 @@
       <title>OMRhost</title>
    </head>
    <body>
-      <h1>Hello, world!</h1>
+      <header>
+         <div class="topbar">
+            <div class="container">
+               <div class="topbar_content py-3">
+                  <div class="topbar_left">
+                     <span class="me-3">Follow Us</span>
+                     <div class="social_icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                     </div>
+                  </div>
+                  <div class="topbar_right">
+                     <div class="contact_info_top border-1 border-end border-secondary">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <span class="ms-2 me-3">+0123 456 123456</span>
+                     </div>
+                     <div class="contact_info_top ms-3">
+                        <i class="fas fa-envelope"></i>
+                        <span class="ms-2">support@you.yours.com</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+               <a class="navbar-brand" href="#header">
+                  <img src="./img/logo.png" alt="LOGO" class="img-fluid" />
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#hosting">Hosting</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#domain">Domain</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#pages">Pages</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#blogs">Blog</a>
+                     </li>
+                     <li class="nav-item me-5">
+                        <a class="nav-link" href="#contact">Contact</a>
+                     </li>
+                  </ul>
+                  <div class="ms-5">
+                     <div class="nav-icon">
+                        <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <div class="user_snippet">
+            <a href="#">
+               <img src="./img/icons/user_icon.png" alt="ClientIcon" class="img-fluid" />
+            </a>
+         </div>
+      </header>
+
+      <main>
+         <section class="banner_section">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-6 col-lg-6 col-xl-6 my-auto">
+                              <div class="banner_content">
+                                 <h2 class="text-capitalize">
+                                    Build your dream website <br />
+                                    with OMRhost
+                                 </h2>
+                                 <p class="py-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                 </p>
+                                 <a href="#" class="py-2 rounded-3"
+                                    >Learn more
+                                    <i class="fas fa-long-arrow-alt-right ps-3"></i>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-6 col-xl-6">
+                              <div class="banner_img">
+                                 <img src="./img/sliderImg.png" alt="Banner" class="img-fluid" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-6 col-lg-6 col-xl-6 my-auto">
+                              <div class="banner_content">
+                                 <h2 class="text-capitalize">
+                                    Build your dream website <br />
+                                    with OMRhost
+                                 </h2>
+                                 <p class="py-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                 </p>
+                                 <a href="#" class="py-2 rounded-3"
+                                    >Learn more
+                                    <i class="fas fa-long-arrow-alt-right ps-3"></i>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-6 col-xl-6">
+                              <div class="banner_img">
+                                 <img src="./img/sliderImg.png" alt="Banner" class="img-fluid" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-6 col-lg-6 col-xl-6 my-auto">
+                              <div class="banner_content">
+                                 <h2 class="text-capitalize">
+                                    Build your dream website <br />
+                                    with OMRhost
+                                 </h2>
+                                 <p class="py-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                 </p>
+                                 <a href="#" class="py-2 rounded-3"
+                                    >Learn more
+                                    <i class="fas fa-long-arrow-alt-right ps-3"></i>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-6 col-xl-6">
+                              <div class="banner_img">
+                                 <img src="./img/sliderImg.png" alt="Banner" class="img-fluid" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </section>
+      </main>
 
       <!-- Option 1: Bootstrap Bundle with Popper -->
       <script
