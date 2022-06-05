@@ -5,7 +5,6 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  overflow-x: hidden;
 }
 
 :root {
@@ -91,6 +90,7 @@ header .navbar {
   background-color: var(--clr-white);
   font-size: var(--font-md);
   padding: 0;
+  position: relative;
 }
 
 header .navbar .navbar-brand {
@@ -116,11 +116,19 @@ header .navbar .nav-icon a {
   color: var(--clr-black) !important;
 }
 
-header .user_snippet {
+header .navbar .navbar-toggler {
+  margin: 2.5rem 0;
+}
+
+header .navbar .collapse {
+  position: relative;
+}
+
+header .navbar .collapse .user_snippet {
   max-width: 50px;
   position: absolute;
-  top: 90px;
-  right: 100px;
+  top: 50px;
+  right: 20px;
   z-index: 10;
   border-radius: 100%;
   -webkit-border-radius: 100%;
@@ -129,7 +137,7 @@ header .user_snippet {
   -o-border-radius: 100%;
 }
 
-header .user_snippet a {
+header .navbar .collapse .user_snippet a {
   display: block;
 }
 
@@ -139,7 +147,7 @@ main {
 
 main .banner_section {
   background-color: var(--clr-gray);
-  padding: 10rem 0;
+  padding-top: 10rem;
 }
 
 main .banner_section .carousel .carousel-item .banner_content h2 {
@@ -189,5 +197,135 @@ main .banner_section .carousel .carousel-control-prev {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   opacity: 1 !important;
+}
+
+main .banner_section .services_cards {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+main .banner_section .services_cards .row .col {
+  background: var(--clr-blue);
+}
+
+main .banner_section .services_cards .service_card {
+  position: relative;
+  padding: 0 3rem;
+  color: var(--clr-gray);
+}
+
+main .banner_section .services_cards .service_card .card_icon {
+  position: absolute;
+  top: -64px;
+  left: 3rem;
+  z-index: 999;
+}
+
+main .banner_section .services_cards .service_card .card-title h3 {
+  font-size: var(--font-xl);
+  color: var(--clr-gray);
+  text-transform: capitalize;
+}
+
+.footer {
+  width: 100%;
+  font-size: var(--font-sm);
+  padding-top: 6rem;
+  background-color: var(--clr-black);
+  color: var(--text-gray);
+}
+
+.footer .row .footer_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .row .footer_btn a {
+  text-decoration: none;
+  color: var(--clr-gray);
+}
+
+.footer .row .footer_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .row .footer_icons i {
+  margin-right: 1rem;
+}
+
+.footer .row .footer_heading {
+  color: var(--clr-gray);
+}
+
+.footer .row .footer_heading h4 {
+  margin-bottom: -4px;
+  font-size: var(--font-lg);
+}
+
+.footer .row .footer_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .row .footer_links a {
+  text-decoration: none;
+  color: var(--text-gray);
+  padding-bottom: 0.5rem;
+}
+
+.footer .row .footer_email_input {
+  position: relative;
+  max-width: 220px;
+}
+
+.footer .row .footer_email_input input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.footer .row .footer_email_input .subscribe_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer .row .footer_email_input .subscribe_btn button {
+  padding: 0.5rem 1rem;
+  background: var(--clr-blue);
+  border: none;
+  color: var(--clr-gray);
+}
+
+.footer .row .footer_payment_cards p {
+  color: var(--clr-gray);
+}
+
+.footer .row .footer_payment_cards .payment_cards {
+  max-width: 180px;
+}
+
+.footer .footer_bottom {
+  border-top: 1px solid var(--clr-gray);
+}
+
+.footer .footer_bottom p {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.footer .footer_bottom p span {
+  color: var(--clr-blue);
 }
 /*# sourceMappingURL=style.css.map */
